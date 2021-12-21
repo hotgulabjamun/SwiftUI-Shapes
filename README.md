@@ -7,23 +7,23 @@
     <img src="https://img.shields.io/badge/platforms-iOS_13_|macOS_10.15_| watchOS_6.0-blue.svg" alt="SwiftUI" />
     <img src="https://img.shields.io/badge/Swift-5.1-orange.svg" alt="Swift 5.1" />
     <img src="https://img.shields.io/badge/SwiftPM-compatible-green.svg" alt="Swift 5.1" />
-    <img src="https://img.shields.io/github/followers/kieranb662?label=Follow" alt="kieranb662 followers" />
+    <img src="https://img.shields.io/github/followers/hotgulabjamun?label=Follow" alt="hotgulabjamun followers" />
 </p>
 
 Commonly used shapes for SwiftUI, some I found on the web [swiftui-lab](https://swiftui-lab.com) and [objc.io](https://www.objc.io/blog/2019/12/16/drawing-trees), others I made myself.
-I hope to create community based repo for cool animated shapes, paths, etc. If you would like to submit some of your own shapes just make a pull request and I will try to approve it ASAP. If you want to try out this package just clone the [example project](https://github.com/kieranb662/Shapes-Examples)
+I hope to create community based repo for cool animated shapes, paths, etc. If you would like to submit some of your own shapes just make a pull request and I will try to approve it ASAP. If you want to try out this package just clone the [example project](https://github.com/hotgulabjamun/Shapes-Examples)
 
-Or create your own shapes using the [bez editor](https://apps.apple.com/us/app/bez-editor/id1508764103) app available for free on iOS 13.4 and greater. 
+Or create your own shapes using the [bez editor](https://apps.apple.com/us/app/bez-editor/id1508764103) app available for free on iOS 13.4 and greater.
 
 <p align="center">
   <a href="https://apps.apple.com/us/app/bez-editor/id1508764103">
-  <img width="300px" src="https://github.com/kieranb662/kieranb662.github.io/blob/master/assets/bezeditorPreview.gif">
+  <img width="300px" src="https://github.com/hotgulabjamun/hotgulabjamun.github.io/blob/master/assets/bezeditorPreview.gif">
   </a>
   </p>
 
 
 <p align="center">
-  <img src="https://github.com/kieranb662/Shapes-Examples/blob/master/Media/ShapesCollage.PNG" >
+  <img src="https://github.com/hotgulabjamun/Shapes-Examples/blob/master/Media/ShapesCollage.PNG" >
   </p>
 
 
@@ -63,7 +63,7 @@ Found at [drawing trees](https://www.objc.io/blog/2019/12/16/drawing-trees). A L
 
 
 <p align="center">
-<img src="https://github.com/kieranb662/Shapes-Examples/blob/master/Media/Line.png"  height=200/>
+<img src="https://github.com/hotgulabjamun/Shapes-Examples/blob/master/Media/Line.png"  height=200/>
 </p>
 
 ### Horizontal
@@ -71,7 +71,7 @@ A horizontal line that is the width of its container has a single parameter
 `offset`: A value between 0 and 1 defining the lines vertical offset in its container (**Default**: 0.5)
 
 <p align="center">
-<img src="https://github.com/kieranb662/Shapes-Examples/blob/master/Media/HorizontalLine.png"  height=200/>
+<img src="https://github.com/hotgulabjamun/Shapes-Examples/blob/master/Media/HorizontalLine.png"  height=200/>
 </p>
 
 
@@ -81,7 +81,7 @@ A Vertical line that is the height of its container has a single parameter
 `offset`: A value between 0 and 1 defining the line's horizontal offset in its container (**Default**: 0.5)
 
 <p align="center">
-<img src="https://github.com/kieranb662/Shapes-Examples/blob/master/Media/VerticalLine.png"  height=200/>
+<img src="https://github.com/hotgulabjamun/Shapes-Examples/blob/master/Media/VerticalLine.png"  height=200/>
 </p>
 
 ### Adaptive
@@ -90,7 +90,7 @@ This shape creates a line centered inside of and constrained by its bounding box
 The end points of the line are the points of intersection of an infinitely long angled line and the container rectangle
 
 <p align="center">
-<img src="https://github.com/kieranb662/Shapes-Examples/blob/master/Media/AdaptiveLine.gif"  height=200/>
+<img src="https://github.com/hotgulabjamun/Shapes-Examples/blob/master/Media/AdaptiveLine.gif"  height=200/>
 </p>
 
 ## Triangles
@@ -98,7 +98,7 @@ The end points of the line are the points of intersection of an infinitely long 
 The various triangles are shown below.
 
 <p align="center">
-<img src="https://github.com/kieranb662/Shapes-Examples/blob/master/Media/Triangles.png"  height=500/>
+<img src="https://github.com/hotgulabjamun/Shapes-Examples/blob/master/Media/Triangles.png"  height=500/>
 </p>
 
 ## Graphing
@@ -110,7 +110,7 @@ A Rectangular grid of vertical and horizontal lines. Has two parameters
 `yCount`: The number of horizontal lines
 
 <p align="center">
-<img src="https://github.com/kieranb662/Shapes-Examples/blob/master/Media/CartesianGrid.png"  height=200/>
+<img src="https://github.com/hotgulabjamun/Shapes-Examples/blob/master/Media/CartesianGrid.png"  height=200/>
 </p>
 
 ### Polar Grid
@@ -120,7 +120,7 @@ A grid made up of concentric circles and angled lines running through their cent
 `thetaCount`: The number of lines
 
 <p align="center">
-<img src="https://github.com/kieranb662/Shapes-Examples/blob/master/Media/Polar.png"  height=500/>
+<img src="https://github.com/hotgulabjamun/Shapes-Examples/blob/master/Media/Polar.png"  height=500/>
 </p>
 
 ### TickMarks
@@ -133,7 +133,7 @@ The shape has two parameters `spacing: CGFloat` and `ticks: Int`. The spacing is
 An examples using `TickMarks` are shown below
 
 <p align="center">
-<img src="https://github.com/kieranb662/Shapes-Examples/blob/master/Media/Ruler.png"  height=500/>
+<img src="https://github.com/hotgulabjamun/Shapes-Examples/blob/master/Media/Ruler.png"  height=500/>
 </p>
 
 
@@ -144,27 +144,27 @@ An examples using `TickMarks` are shown below
 An arrow that starts out small shaped like this |--| but as it grows larger it looks like this <---->
 
 <p align="center">
-<img src="https://github.com/kieranb662/Shapes-Examples/blob/master/Media/Arrows.gif"  height=500/>
+<img src="https://github.com/hotgulabjamun/Shapes-Examples/blob/master/Media/Arrows.gif"  height=500/>
 </p>
 
 ## Pentagon
 
 <p align="center">
-<img src="https://github.com/kieranb662/Shapes-Examples/blob/master/Media/Pentagon.png"  height=200/>
+<img src="https://github.com/hotgulabjamun/Shapes-Examples/blob/master/Media/Pentagon.png"  height=200/>
 </p>
 
 
 ## Foldable Shapes
 
 <p align="center">
-<img src="https://github.com/kieranb662/Shapes-Examples/blob/master/Media/FoldableShapes.gif"  height=500/>
+<img src="https://github.com/hotgulabjamun/Shapes-Examples/blob/master/Media/FoldableShapes.gif"  height=500/>
 </p>
 
 
-## Contributing 
+## Contributing
 
-If you have an idea for a shape but don't know how to describe it, try out the `PathEditor` tool that comes packaged with [bez](https://github.com/kieranb662/bez)
+If you have an idea for a shape but don't know how to describe it, try out the `PathEditor` tool that comes packaged with [bez](https://github.com/hotgulabjamun/bez)
 
 <p align="center">
-<img src="https://github.com/kieranb662/bez/blob/master/Media/PathEditor.gif" height=500 />
+<img src="https://github.com/hotgulabjamun/bez/blob/master/Media/PathEditor.gif" height=500 />
 </p>
