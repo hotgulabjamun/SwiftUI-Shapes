@@ -18,8 +18,5 @@ let package = Package(
         .target(
             name: "Shapes",
             dependencies: ["CGExtender"]),
-        .testTarget(
-            name: "ShapesTests",
-            dependencies: ["Shapes"]),
-    ]
+   ]
 )
