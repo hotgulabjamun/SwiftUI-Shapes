@@ -28,7 +28,7 @@ extension OmniRectangle {
             self.rightCurvature  = edges.contains(.right)  ? curvature : 0
             self.bottomCurvature = edges.contains(.bottom) ? curvature : 0
         }
-#fi
+#endif
 
         public static func allFlat() -> EdgeStyles {
             EdgeStyles(leftCurvature: 0,
