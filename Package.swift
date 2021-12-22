@@ -4,19 +4,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "Shapes",
+    name: "Swiftui-Shapes",
     platforms: [.iOS(.v13), .macOS(.v10_15), .watchOS(.v6), .tvOS(.v13)],
     products: [
         .library(
-            name: "Shapes",
-            targets: ["Shapes"]),
+            name: "Swiftui-Shapes",
+            targets: ["Swiftui-Shapes"]),
     ],
     dependencies: [
         .package(url: "https://github.com/hotgulabjamun/CGExtender.git", from: "1.0.1")
     ],
     targets: [
         .target(
-            name: "Shapes",
+            name: "Swiftui-Shapes",
             dependencies: ["CGExtender"]),
    ]
 )
